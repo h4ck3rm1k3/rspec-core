@@ -13,8 +13,8 @@ end
 
 ### deps for rdoc.info
 platforms :ruby do
-  gem 'yard',          '0.8.0', :require => false
-  gem 'redcarpet',     '2.1.1'
+  gem 'yard'
+  gem 'redcarpet'
   gem 'github-markup'
 end
 

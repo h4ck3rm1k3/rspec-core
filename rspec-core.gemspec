@@ -23,15 +23,15 @@ Gem::Specification.new do |s|
   s.rdoc_options     = ["--charset=UTF-8"]
   s.require_path     = "lib"
 
-  s.add_development_dependency "rake",     "~> 0.9.2"
+  s.add_development_dependency "rake"
   s.add_development_dependency "cucumber"
   s.add_development_dependency "aruba"
 
-  s.add_development_dependency "ZenTest",  "4.6.2"
-  s.add_development_dependency "nokogiri", "1.5.2"
-  s.add_development_dependency "syntax",   "1.0.0"
+  s.add_development_dependency "ZenTest"
+  s.add_development_dependency "nokogiri"
+  s.add_development_dependency "syntax"
 
-  s.add_development_dependency "mocha",    "~> 0.10.5"
-  s.add_development_dependency "rr",       "~> 1.0.4"
-  s.add_development_dependency "flexmock", "~> 0.9.0"
+  s.add_development_dependency "mocha"
+  s.add_development_dependency "rr"
+  s.add_development_dependency "flexmock"
 end
