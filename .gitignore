@@ -21,3 +21,5 @@ bundle
 .rspec-local
 spec/examples.txt
 specs.out
+/Gemfile.orig
+/rspec-core.gemspec.orig
